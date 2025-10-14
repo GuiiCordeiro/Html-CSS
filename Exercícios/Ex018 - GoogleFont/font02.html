@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        /*
+        Tipos de format()
+        opentype (otf)
+        truetype(ttf)
+        embedded-opentype
+        truetype-aat (Apple Advanced Typography)
+        svg 
+        */
+        @font-face {
+            font-family: 'die';
+            src: url('fontes/All of us will die.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Wild';
+            src: url('fontes/Wild Trails.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'droid';
+            src: url('fontes/idroid.otf')format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        h1{
+            font-family: 'die', Times, serif;
+            font-size: 3em;
+        }
+        h2{
+            font-family: 'Wild', Times, serif;
+        }
+        p{
+            font-family: 'droid', Times, serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>T/TULo</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit doloribus optio placeat tempora, velit tempore, quam ducimus consequatur sed officia adipisci enim aliquam deserunt eos repellat facere rerum voluptate repudiandae.</p>
+    <h2>TITUL0 2</h2>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam reiciendis ullam ad rem blanditiis pariatur delectus consectetur, odit, officia numquam nisi quasi fuga, at alias dolorum sit dignissimos consequuntur labore?</p>
+</body>
+</html>

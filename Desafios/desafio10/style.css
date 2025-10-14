@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #84E1AD;
+    margin: 0%;
+}
+h1#Principal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header{
+    background-image: linear-gradient(to bottom, #3CD782,  #0f331f);
+    padding: 10px;
+    margin: 0px;
+}
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+nav > .interno{
+    text-decoration: none;
+    color: #b5ffd6;
+    margin-right: 15px;
+    font-family: sans-serif;
+}
+nav > .interno:hover{
+    background-color: #84E1AD;
+    color:  #0f331f;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+h1{
+    font-family: 'droid', Times, serif;
+    color: #135833;
+}
+main{
+    background-color: white;
+    padding: 15px;
+    margin-right: 150px;
+    margin-left: 150px;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+}
+p{
+    color: black;
+    font-family: sans-serif;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 2;
+}
+h2{
+    font-family: 'droid', Times, serif;
+    background-image:linear-gradient(to right, rgb(104, 197, 117), rgb(181, 238, 181), rgb(230, 247, 232), rgb(255, 255, 255));
+    padding-left: 10px;
+    
+}
+.externo{
+    text-decoration: none;
+    color:  #135833; 
+    background-color: rgb(158, 228, 167);
+    
+}
+.externo:hover{
+    text-decoration: underline;
+}
+main img{
+    display: block;
+    margin: 0 auto;
+}
+main iframe{
+    display: block;
+    width: 94%;
+    height: 800px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: none;
+}
+section >h3{
+    background-color: #165D34;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+section{
+    background-color: #80E2AA;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.432);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+footer{
+    background-color: #0f331f;
+    margin: 0px;
+    padding: 1px;
+    
+}
+footer > p{
+    color: white;
+    text-align: center;
+}
