@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'passion';
+    src: url('../fontes/PassionOne-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url('../fontes/Sriracha-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+body{
+  
+}
+
+header{
+    height: 239px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    font-family: 'passion';
+    font-size: 95px;
+    color: white;
+    padding-top: 64px;
+}
+
+header > p{
+    font-family: verdana;
+    color: white;
+    margin-bottom: 50%;
+}
+
+header > p > strong > a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+section.normal{
+     font-family: 'sriracha';
+     font-size: 3.5vw;
+     padding-top: 12vh;
+     padding-bottom: 25vh;
+     line-height: 1em;
+     padding-left: 30px;
+}
+
+section.imagem{
+    background-image: url(../imagens/background001.jpg)
+}
