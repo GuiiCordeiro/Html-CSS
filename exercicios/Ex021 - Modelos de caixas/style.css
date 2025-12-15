@@ -1,66 +1,66 @@
 @charset "UTF-8";
 
 body{
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: aquamarine;
-            margin: 0px;
-        }
-        header{
-            background-color: gray;
-            padding: 10px;
-            margin: 0px;
-        }
-        nav{
-            background-color: rgb(201, 223, 4);
-            padding: 3px;
-            box-shadow: 5px 4px 5px 1px rgba(0, 0, 0, 0.342);
-        }
-        a{
-            position: relative;
-            color: black;
-            text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient( #7f3d9e, #6d00d9);
+    margin: 0px;
+}
+header{
+    background-color: gray;
+    padding: 10px;
+    margin: 0px;
+}
+nav{
+    background-color: rgb(4, 223, 194);
+    padding: 3px;
+    box-shadow: 5px 4px 5px 1px rgba(0, 0, 0, 0.342);
+}
+a{
+    position: relative;
+    color: black;
+    text-decoration: none;
 
-        }
+}
 
-        header nav a::after{
-            content: '';
-            position: absolute;
-            left: 0;
-            bottom: 0px;
-            width:0px;
-            height: 2px;
-            background-color: purple;
-            transition: width 0.5s ease;
-        }
+header nav a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    width:0px;
+    height: 2px;
+    background-color: purple;
+    transition: width 0.5s ease;
+}
 
-        a:hover::after{
-            
-            width: 100%;
-        }
-        main{
-            background-color: azure;
-            padding: 10px;
-            margin: 10px;
-            border-radius: 11px;
-        }
-        article{
-            background-color: cadetblue;
-            padding: 1px 2px 1px 7px;
-        }
-        article > aside{
-            text-align: center;
-            background-color: rgb(103, 105, 107);
-            padding: 2px;
-        }
-       
-        
-        footer{
-            background-color: bisque;
-            color: rgb(42, 85, 165);
-            text-align: center;
-            padding: 4px;
-            margin: 0px;
-        }
-        footer > p{
-            margin: 0px;
-        }
+a:hover::after{
+    
+    width: 100%;
+}
+main{
+    background-color: rgb(240, 255, 255);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 11px;
+}
+article{
+    background-color: cadetblue;
+    padding: 1px 2px 1px 7px;
+}
+article > aside{
+    text-align: center;
+    background-color: rgb(103, 105, 107);
+    padding: 2px;
+}
+
+
+footer{
+    background-color: bisque;
+    color: rgb(42, 85, 165);
+    text-align: center;
+    padding: 4px;
+    margin: 0px;
+}
+footer > p{
+    margin: 0px;
+}
