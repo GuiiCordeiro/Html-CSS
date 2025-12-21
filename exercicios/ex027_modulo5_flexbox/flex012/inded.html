@@ -15,22 +15,31 @@
             background-color: rgb(120, 211, 127);
             border: 1px solid black;
             text-align: center;
-            flex-basis: 350px;
+            
         }
 
         div#a{
-            flex-shrink: 1;
+            /*flex-shrink: 1;
             flex-grow: 1;
+            flex-basis: 350px;*/
+
+            flex: 1 1 350px;
         }
 
         div#b{
-            flex-shrink: 2;
+            /*flex-shrink: 2;
             flex-grow: 3;
+            flex-basis: 350px;*/
+
+            flex: 3 2 350px;
         }
 
         div#c{
-            flex-shrink: 0;
+            /*flex-shrink: 0;
             flex-grow: 5;
+            flex-basis: 350px;*/
+
+            flex: 5 0 350px;
         }
 
     </style>
