@@ -1,0 +1,93 @@
+@charset "ITF-8";
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 223, 223);
+}
+
+header{
+    background-color: gray;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+h1{
+  margin-right: 70px;
+}
+
+nav{
+    display: flex;
+    
+}
+
+div.op1{
+    padding: 12px;
+    margin-right: 8px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.op2{
+    padding: 12px;
+    margin-right: 8px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.op3{
+    padding: 12px;
+    margin-right: 8px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.op4{
+    padding: 12px;
+    margin-right: 8px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.op5{
+    padding: 12px;
+    margin-right: 8px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div.op6{
+    padding: 12px;
+    margin-right: 8px;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+main{
+    width: 95vw;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.336);
+}

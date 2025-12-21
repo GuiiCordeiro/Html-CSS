@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 600px) {
+    header {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    header > h1{
+        text-align: center;
+        margin: 0px 0px 15px 0px;
+    }
+
+    nav{
+        display: flex;
+        flex-flow: column nowrap;   
+    }
+
+    div{
+        width: 350px;
+        margin-bottom: 5px;
+    }
+
+    main{
+        width: 93vw;
+    }
+}
