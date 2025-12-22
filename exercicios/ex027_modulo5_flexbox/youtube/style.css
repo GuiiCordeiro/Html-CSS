@@ -4,15 +4,24 @@ body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     display: flex;
-    justify-content: space-around;
-    background-color: #0F0F0F ;
+    justify-content: space-between;
+    background-color: #070707;
     color: white;
     height: 60px;
     align-items: center;
+}
+
+div.left{
+    margin-left: 20px;
+}
+
+div.left span.menu{
+    margin-right: 15px;
 }
 
 a{
@@ -26,22 +35,64 @@ a.menu:hover{
     background-color: grey;
 }
 
+img{
+    width: 80px;
+
+}
+
+div.mid{
+    position: relative;
+}
+
 input.barra{
     background-color: transparent;
     border-radius: 30px;
     width: 500px;
-    height: 30px;
+    height: 35px;
     padding-left: 15px;
     border: 1px solid rgb(68, 68, 68);
     margin-bottom: 10px;
+   
 }
 
-span#search{
+button#search{
     background-color: #222222;
     font-size: 33px;
     border-radius: 30px;
     width: 50px;
     text-align: center;
+    position: absolute;
+    top: 2px;
+    right: 1px;
+    bottom: 12px;
+    color: white;
+}
+
+button#mic{
+    background-color: #222222;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 
+div.right{
+    margin-right: 80px;
+}
+
+a#create{
+    background-color: #222222;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+div.right a.user{
+    background-color: darkorange;
+    padding: 8px;
+    border-radius: 50%;
+    right: 20px;
+}
